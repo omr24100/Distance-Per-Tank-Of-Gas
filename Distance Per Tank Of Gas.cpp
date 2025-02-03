@@ -6,10 +6,17 @@ using namespace std;
 
 int main()
 {
-    double milesdriven = 375;
-    double gallonsused = 15;
-    
-    double mpg = milesdriven / gallonsused;
+    double milesdriven, gallonsused, mpg;
+
+    cout << "Enter the number of miles driven";
+    cin >> milesdriven;
+
+    cout << "Eneter the number of gallons of gas used";
+    cin >> gallonsused;
+
+    mpg = milesdriven / gallonsused;
+
+
 
     cout << "The car gets" << mpg << "miles per gallon." << endl;
 
